@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F1C8D11B9C8E9A000AD00B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C8D01B9C8E9A000AD00B /* main.m */; };
+		66F1C8D41B9C8E9A000AD00B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C8D31B9C8E9A000AD00B /* AppDelegate.m */; };
+		66F1C8D71B9C8E9A000AD00B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C8D61B9C8E9A000AD00B /* ViewController.m */; };
+		66F1C8DA1B9C8E9A000AD00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C8D81B9C8E9A000AD00B /* Main.storyboard */; };
+		66F1C8DC1B9C8E9A000AD00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C8DB1B9C8E9A000AD00B /* Assets.xcassets */; };
+		66F1C8DF1B9C8E9A000AD00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C8DD1B9C8E9A000AD00B /* LaunchScreen.storyboard */; };
+		66F1C8EA1B9C8E9A000AD00B /* mineCompTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C8E91B9C8E9A000AD00B /* mineCompTests.m */; };
+		66F1C8F51B9C8E9A000AD00B /* mineCompUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C8F41B9C8E9A000AD00B /* mineCompUITests.m */; };
+		66F1C8FA1B9C8E9A000AD00B /* mineComp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 66F1C8F91B9C8E9A000AD00B /* mineComp WatchKit App.app */; };
+		66F1C9001B9C8E9A000AD00B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C8FE1B9C8E9A000AD00B /* Interface.storyboard */; };
+		66F1C9021B9C8E9A000AD00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C9011B9C8E9A000AD00B /* Assets.xcassets */; };
+		66F1C9091B9C8E9A000AD00B /* mineComp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 66F1C9081B9C8E9A000AD00B /* mineComp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66F1C9111B9C8E9A000AD00B /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C9101B9C8E9A000AD00B /* InterfaceController.m */; };
+		66F1C9141B9C8E9A000AD00B /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C9131B9C8E9A000AD00B /* ExtensionDelegate.m */; };
+		66F1C9171B9C8E9A000AD00B /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C9161B9C8E9A000AD00B /* NotificationController.m */; };
+		66F1C91A1B9C8E9A000AD00B /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C9191B9C8E9A000AD00B /* GlanceController.m */; };
+		66F1C91D1B9C8E9A000AD00B /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1C91C1B9C8E9A000AD00B /* ComplicationController.m */; };
+		66F1C91F1B9C8E9B000AD00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F1C91E1B9C8E9B000AD00B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F1C8E61B9C8E9A000AD00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F1C8C41B9C8E9A000AD00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F1C8CB1B9C8E9A000AD00B;
+			remoteInfo = mineComp;
+		};
+		66F1C8F11B9C8E9A000AD00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F1C8C41B9C8E9A000AD00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F1C8CB1B9C8E9A000AD00B;
+			remoteInfo = mineComp;
+		};
+		66F1C8FB1B9C8E9A000AD00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F1C8C41B9C8E9A000AD00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F1C8F81B9C8E9A000AD00B;
+			remoteInfo = "mineComp WatchKit App";
+		};
+		66F1C90A1B9C8E9A000AD00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F1C8C41B9C8E9A000AD00B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F1C9071B9C8E9A000AD00B;
+			remoteInfo = "mineComp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66F1C9261B9C8E9B000AD00B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				66F1C9091B9C8E9A000AD00B /* mineComp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C92A1B9C8E9B000AD00B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				66F1C8FA1B9C8E9A000AD00B /* mineComp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66F1C8CC1B9C8E9A000AD00B /* mineComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mineComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1C8D01B9C8E9A000AD00B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F1C8D21B9C8E9A000AD00B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F1C8D31B9C8E9A000AD00B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F1C8D51B9C8E9A000AD00B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F1C8D61B9C8E9A000AD00B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66F1C8D91B9C8E9A000AD00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F1C8DB1B9C8E9A000AD00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F1C8DE1B9C8E9A000AD00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F1C8E01B9C8E9A000AD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F1C8E51B9C8E9A000AD00B /* mineCompTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineCompTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1C8E91B9C8E9A000AD00B /* mineCompTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineCompTests.m; sourceTree = "<group>"; };
+		66F1C8EB1B9C8E9A000AD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F1C8F01B9C8E9A000AD00B /* mineCompUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineCompUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1C8F41B9C8E9A000AD00B /* mineCompUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineCompUITests.m; sourceTree = "<group>"; };
+		66F1C8F61B9C8E9A000AD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F1C8F91B9C8E9A000AD00B /* mineComp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mineComp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1C8FF1B9C8E9A000AD00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		66F1C9011B9C8E9A000AD00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F1C9031B9C8E9A000AD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F1C9081B9C8E9A000AD00B /* mineComp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mineComp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F1C90E1B9C8E9A000AD00B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		66F1C90F1B9C8E9A000AD00B /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		66F1C9101B9C8E9A000AD00B /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		66F1C9121B9C8E9A000AD00B /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		66F1C9131B9C8E9A000AD00B /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		66F1C9151B9C8E9A000AD00B /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		66F1C9161B9C8E9A000AD00B /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		66F1C9181B9C8E9A000AD00B /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		66F1C9191B9C8E9A000AD00B /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		66F1C91B1B9C8E9A000AD00B /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		66F1C91C1B9C8E9A000AD00B /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		66F1C91E1B9C8E9B000AD00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F1C9201B9C8E9B000AD00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F1C8C91B9C8E9A000AD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8E21B9C8E9A000AD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8ED1B9C8E9A000AD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C9051B9C8E9A000AD00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F1C8C31B9C8E99000AD00B = {
+			isa = PBXGroup;
+			children = (
+				66F1C8CE1B9C8E9A000AD00B /* mineComp */,
+				66F1C8E81B9C8E9A000AD00B /* mineCompTests */,
+				66F1C8F31B9C8E9A000AD00B /* mineCompUITests */,
+				66F1C8FD1B9C8E9A000AD00B /* mineComp WatchKit App */,
+				66F1C90C1B9C8E9A000AD00B /* mineComp WatchKit Extension */,
+				66F1C8CD1B9C8E9A000AD00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F1C8CD1B9C8E9A000AD00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8CC1B9C8E9A000AD00B /* mineComp.app */,
+				66F1C8E51B9C8E9A000AD00B /* mineCompTests.xctest */,
+				66F1C8F01B9C8E9A000AD00B /* mineCompUITests.xctest */,
+				66F1C8F91B9C8E9A000AD00B /* mineComp WatchKit App.app */,
+				66F1C9081B9C8E9A000AD00B /* mineComp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F1C8CE1B9C8E9A000AD00B /* mineComp */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8D21B9C8E9A000AD00B /* AppDelegate.h */,
+				66F1C8D31B9C8E9A000AD00B /* AppDelegate.m */,
+				66F1C8D51B9C8E9A000AD00B /* ViewController.h */,
+				66F1C8D61B9C8E9A000AD00B /* ViewController.m */,
+				66F1C8D81B9C8E9A000AD00B /* Main.storyboard */,
+				66F1C8DB1B9C8E9A000AD00B /* Assets.xcassets */,
+				66F1C8DD1B9C8E9A000AD00B /* LaunchScreen.storyboard */,
+				66F1C8E01B9C8E9A000AD00B /* Info.plist */,
+				66F1C8CF1B9C8E9A000AD00B /* Supporting Files */,
+			);
+			path = mineComp;
+			sourceTree = "<group>";
+		};
+		66F1C8CF1B9C8E9A000AD00B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8D01B9C8E9A000AD00B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F1C8E81B9C8E9A000AD00B /* mineCompTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8E91B9C8E9A000AD00B /* mineCompTests.m */,
+				66F1C8EB1B9C8E9A000AD00B /* Info.plist */,
+			);
+			path = mineCompTests;
+			sourceTree = "<group>";
+		};
+		66F1C8F31B9C8E9A000AD00B /* mineCompUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8F41B9C8E9A000AD00B /* mineCompUITests.m */,
+				66F1C8F61B9C8E9A000AD00B /* Info.plist */,
+			);
+			path = mineCompUITests;
+			sourceTree = "<group>";
+		};
+		66F1C8FD1B9C8E9A000AD00B /* mineComp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C8FE1B9C8E9A000AD00B /* Interface.storyboard */,
+				66F1C9011B9C8E9A000AD00B /* Assets.xcassets */,
+				66F1C9031B9C8E9A000AD00B /* Info.plist */,
+			);
+			path = "mineComp WatchKit App";
+			sourceTree = "<group>";
+		};
+		66F1C90C1B9C8E9A000AD00B /* mineComp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C90F1B9C8E9A000AD00B /* InterfaceController.h */,
+				66F1C9101B9C8E9A000AD00B /* InterfaceController.m */,
+				66F1C9121B9C8E9A000AD00B /* ExtensionDelegate.h */,
+				66F1C9131B9C8E9A000AD00B /* ExtensionDelegate.m */,
+				66F1C9151B9C8E9A000AD00B /* NotificationController.h */,
+				66F1C9161B9C8E9A000AD00B /* NotificationController.m */,
+				66F1C9181B9C8E9A000AD00B /* GlanceController.h */,
+				66F1C9191B9C8E9A000AD00B /* GlanceController.m */,
+				66F1C91B1B9C8E9A000AD00B /* ComplicationController.h */,
+				66F1C91C1B9C8E9A000AD00B /* ComplicationController.m */,
+				66F1C91E1B9C8E9B000AD00B /* Assets.xcassets */,
+				66F1C9201B9C8E9B000AD00B /* Info.plist */,
+				66F1C90D1B9C8E9A000AD00B /* Supporting Files */,
+			);
+			path = "mineComp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		66F1C90D1B9C8E9A000AD00B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F1C90E1B9C8E9A000AD00B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F1C8CB1B9C8E9A000AD00B /* mineComp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F1C92B1B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp" */;
+			buildPhases = (
+				66F1C8C81B9C8E9A000AD00B /* Sources */,
+				66F1C8C91B9C8E9A000AD00B /* Frameworks */,
+				66F1C8CA1B9C8E9A000AD00B /* Resources */,
+				66F1C92A1B9C8E9B000AD00B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F1C8FC1B9C8E9A000AD00B /* PBXTargetDependency */,
+			);
+			name = mineComp;
+			productName = mineComp;
+			productReference = 66F1C8CC1B9C8E9A000AD00B /* mineComp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F1C8E41B9C8E9A000AD00B /* mineCompTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F1C92E1B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineCompTests" */;
+			buildPhases = (
+				66F1C8E11B9C8E9A000AD00B /* Sources */,
+				66F1C8E21B9C8E9A000AD00B /* Frameworks */,
+				66F1C8E31B9C8E9A000AD00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F1C8E71B9C8E9A000AD00B /* PBXTargetDependency */,
+			);
+			name = mineCompTests;
+			productName = mineCompTests;
+			productReference = 66F1C8E51B9C8E9A000AD00B /* mineCompTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66F1C8EF1B9C8E9A000AD00B /* mineCompUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F1C9311B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineCompUITests" */;
+			buildPhases = (
+				66F1C8EC1B9C8E9A000AD00B /* Sources */,
+				66F1C8ED1B9C8E9A000AD00B /* Frameworks */,
+				66F1C8EE1B9C8E9A000AD00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F1C8F21B9C8E9A000AD00B /* PBXTargetDependency */,
+			);
+			name = mineCompUITests;
+			productName = mineCompUITests;
+			productReference = 66F1C8F01B9C8E9A000AD00B /* mineCompUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		66F1C8F81B9C8E9A000AD00B /* mineComp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F1C9271B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp WatchKit App" */;
+			buildPhases = (
+				66F1C8F71B9C8E9A000AD00B /* Resources */,
+				66F1C9261B9C8E9B000AD00B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F1C90B1B9C8E9A000AD00B /* PBXTargetDependency */,
+			);
+			name = "mineComp WatchKit App";
+			productName = "mineComp WatchKit App";
+			productReference = 66F1C8F91B9C8E9A000AD00B /* mineComp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		66F1C9071B9C8E9A000AD00B /* mineComp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F1C9231B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp WatchKit Extension" */;
+			buildPhases = (
+				66F1C9041B9C8E9A000AD00B /* Sources */,
+				66F1C9051B9C8E9A000AD00B /* Frameworks */,
+				66F1C9061B9C8E9A000AD00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mineComp WatchKit Extension";
+			productName = "mineComp WatchKit Extension";
+			productReference = 66F1C9081B9C8E9A000AD00B /* mineComp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F1C8C41B9C8E9A000AD00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Robert Figueras";
+				TargetAttributes = {
+					66F1C8CB1B9C8E9A000AD00B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					66F1C8E41B9C8E9A000AD00B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 66F1C8CB1B9C8E9A000AD00B;
+					};
+					66F1C8EF1B9C8E9A000AD00B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 66F1C8CB1B9C8E9A000AD00B;
+					};
+					66F1C8F81B9C8E9A000AD00B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					66F1C9071B9C8E9A000AD00B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 66F1C8C71B9C8E9A000AD00B /* Build configuration list for PBXProject "mineComp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F1C8C31B9C8E99000AD00B;
+			productRefGroup = 66F1C8CD1B9C8E9A000AD00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F1C8CB1B9C8E9A000AD00B /* mineComp */,
+				66F1C8E41B9C8E9A000AD00B /* mineCompTests */,
+				66F1C8EF1B9C8E9A000AD00B /* mineCompUITests */,
+				66F1C8F81B9C8E9A000AD00B /* mineComp WatchKit App */,
+				66F1C9071B9C8E9A000AD00B /* mineComp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F1C8CA1B9C8E9A000AD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C8DF1B9C8E9A000AD00B /* LaunchScreen.storyboard in Resources */,
+				66F1C8DC1B9C8E9A000AD00B /* Assets.xcassets in Resources */,
+				66F1C8DA1B9C8E9A000AD00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8E31B9C8E9A000AD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8EE1B9C8E9A000AD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8F71B9C8E9A000AD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C9021B9C8E9A000AD00B /* Assets.xcassets in Resources */,
+				66F1C9001B9C8E9A000AD00B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C9061B9C8E9A000AD00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C91F1B9C8E9B000AD00B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F1C8C81B9C8E9A000AD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C8D71B9C8E9A000AD00B /* ViewController.m in Sources */,
+				66F1C8D41B9C8E9A000AD00B /* AppDelegate.m in Sources */,
+				66F1C8D11B9C8E9A000AD00B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8E11B9C8E9A000AD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C8EA1B9C8E9A000AD00B /* mineCompTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C8EC1B9C8E9A000AD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C8F51B9C8E9A000AD00B /* mineCompUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F1C9041B9C8E9A000AD00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F1C9141B9C8E9A000AD00B /* ExtensionDelegate.m in Sources */,
+				66F1C9111B9C8E9A000AD00B /* InterfaceController.m in Sources */,
+				66F1C9171B9C8E9A000AD00B /* NotificationController.m in Sources */,
+				66F1C91A1B9C8E9A000AD00B /* GlanceController.m in Sources */,
+				66F1C91D1B9C8E9A000AD00B /* ComplicationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F1C8E71B9C8E9A000AD00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F1C8CB1B9C8E9A000AD00B /* mineComp */;
+			targetProxy = 66F1C8E61B9C8E9A000AD00B /* PBXContainerItemProxy */;
+		};
+		66F1C8F21B9C8E9A000AD00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F1C8CB1B9C8E9A000AD00B /* mineComp */;
+			targetProxy = 66F1C8F11B9C8E9A000AD00B /* PBXContainerItemProxy */;
+		};
+		66F1C8FC1B9C8E9A000AD00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F1C8F81B9C8E9A000AD00B /* mineComp WatchKit App */;
+			targetProxy = 66F1C8FB1B9C8E9A000AD00B /* PBXContainerItemProxy */;
+		};
+		66F1C90B1B9C8E9A000AD00B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F1C9071B9C8E9A000AD00B /* mineComp WatchKit Extension */;
+			targetProxy = 66F1C90A1B9C8E9A000AD00B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F1C8D81B9C8E9A000AD00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F1C8D91B9C8E9A000AD00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F1C8DD1B9C8E9A000AD00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F1C8DE1B9C8E9A000AD00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		66F1C8FE1B9C8E9A000AD00B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F1C8FF1B9C8E9A000AD00B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F1C9211B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F1C9221B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F1C9241B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "mineComp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		66F1C9251B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "mineComp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		66F1C9281B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = mineComp_WatchKit_Extension;
+				INFOPLIST_FILE = "mineComp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		66F1C9291B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = mineComp_WatchKit_Extension;
+				INFOPLIST_FILE = "mineComp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		66F1C92C1B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mineComp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66F1C92D1B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mineComp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineComp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66F1C92F1B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mineCompTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineCompTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mineComp.app/mineComp";
+			};
+			name = Debug;
+		};
+		66F1C9301B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mineCompTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineCompTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mineComp.app/mineComp";
+			};
+			name = Release;
+		};
+		66F1C9321B9C8E9B000AD00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mineCompUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineCompUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mineComp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66F1C9331B9C8E9B000AD00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mineCompUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RPF.mineCompUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mineComp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F1C8C71B9C8E9A000AD00B /* Build configuration list for PBXProject "mineComp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C9211B9C8E9B000AD00B /* Debug */,
+				66F1C9221B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F1C9231B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C9241B9C8E9B000AD00B /* Debug */,
+				66F1C9251B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66F1C9271B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C9281B9C8E9B000AD00B /* Debug */,
+				66F1C9291B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66F1C92B1B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineComp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C92C1B9C8E9B000AD00B /* Debug */,
+				66F1C92D1B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66F1C92E1B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineCompTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C92F1B9C8E9B000AD00B /* Debug */,
+				66F1C9301B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66F1C9311B9C8E9B000AD00B /* Build configuration list for PBXNativeTarget "mineCompUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F1C9321B9C8E9B000AD00B /* Debug */,
+				66F1C9331B9C8E9B000AD00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F1C8C41B9C8E9A000AD00B /* Project object */;
+}
